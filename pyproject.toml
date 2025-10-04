@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chroma-db"
+version = "0.1.0"
+description = ""
+authors = ["charles"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+chromadb = "^1.1.0"
+ollama = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
