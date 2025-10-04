@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chroma-db"
+version = "0.1.0"
+description = "A Python project integrating ChromaDB with Ollama"
+authors = ["Thower56"]
+readme = "README.md"
+packages = [{include = "chroma_db", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+chromadb = "^0.5.0"
+ollama = "^0.4.5"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
